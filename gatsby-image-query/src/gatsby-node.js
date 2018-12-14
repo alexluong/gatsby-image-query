@@ -36,7 +36,7 @@ exports.onPreExtractQueries = ({ getNodesByType }, pluginOptions) => {
     .toString()
 
   const basePath = process.cwd()
-  nodes.forEach((item, index) => {
+  nodes.forEach(item => {
     const name = item.replace(/-|\./g, "_")
 
     const queryPath = path.resolve(basePath, "src/generated", `${name}.js`)
