@@ -1,0 +1,21 @@
+{
+  "name": "basic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "yarn develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.67",
+    "gatsby-image": "^2.0.25",
+    "gatsby-image-query": "0.1.0",
+    "gatsby-plugin-sharp": "^2.0.15",
+    "gatsby-source-filesystem": "^2.0.12",
+    "gatsby-transformer-sharp": "^2.1.9",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}

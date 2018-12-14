@@ -1,0 +1,11 @@
+{
+  "name": "gatsby-image-query",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "examples/*",
+    "gatsby-image-query"
+  ]
+}
